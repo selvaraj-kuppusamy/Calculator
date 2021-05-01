@@ -50,7 +50,7 @@ case $CHOICE in
         	   
            echo "Enter the First Number : "
            read NUMBER01
-           echo "Enter the Second NUmber :  "
+           echo "Enter the Second Number :  "
            read NUMBER02
 
            SUB=`expr $NUMBER01 - $NUMBER02`
@@ -67,7 +67,7 @@ case $CHOICE in
 
 	    echo "Enter the First Number : "
             read NUMBER01
-            echo "Enter the Second NUmber : "
+            echo "Enter the Second Number : "
             read NUMBER02
 
 	    MUL=`expr $NUMBER01 \* $NUMBER02`
@@ -83,7 +83,7 @@ case $CHOICE in
 
 	    echo "Enter the First Number : "
             read NUMBER01
-            echo "Enter the Second NUmber : "
+            echo "Enter the Second Number : "
             read NUMBER02
 
 	    DIV=`expr $NUMBER01 / $NUMBER02`
@@ -99,7 +99,7 @@ case $CHOICE in
             
             echo "Enter the First Number :  "
             read NUMBER01
-            echo "Enter the Second NUmber : "
+            echo "Enter the Second Number : "
             read NUMBER02
             
 	    MOD=`expr $NUMBER01 % $NUMBER02`
